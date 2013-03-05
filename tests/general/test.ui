@@ -1,0 +1,122 @@
+<ui version="4.0" >
+ <class>Test</class>
+ <widget class="QDialog" name="Test" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>493</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Greenphoto</string>
+  </property>
+  <layout class="QHBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QListWidget" name="accountList" />
+     </item>
+     <item>
+      <layout class="QHBoxLayout" >
+       <property name="margin" >
+        <number>0</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="newFacebook" >
+         <property name="text" >
+          <string>Facebook</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="newFlickr" >
+         <property name="text" >
+          <string>Flickr</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="newPicasa" >
+         <property name="text" >
+          <string>Picasa</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="removeButton" >
+       <property name="text" >
+        <string>Remove</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QListWidget" name="albumList" />
+     </item>
+     <item>
+      <widget class="QPushButton" name="getAlbums" >
+       <property name="text" >
+        <string>Get albums</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="createAlbum" >
+       <property name="text" >
+        <string>Create album</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="uploadPhoto" >
+       <property name="text" >
+        <string>Upload photo</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>accountList</tabstop>
+  <tabstop>newFacebook</tabstop>
+  <tabstop>newFlickr</tabstop>
+  <tabstop>newPicasa</tabstop>
+  <tabstop>removeButton</tabstop>
+  <tabstop>albumList</tabstop>
+  <tabstop>getAlbums</tabstop>
+  <tabstop>createAlbum</tabstop>
+  <tabstop>uploadPhoto</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
